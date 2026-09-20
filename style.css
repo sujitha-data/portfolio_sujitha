@@ -1055,7 +1055,12 @@ section{
 }
 
 }
- 
+
+ /* AOS fallback - keeps content visible if animation library fails */
+[data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+}
 /*=========================================
         END
 =========================================*/
